@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, 'Butterfly Kids';
+}
+
+/* HEADER */
+
+header {
+    background-color: #26292e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #949598;
+    font-size: normal;
+    font-weight: bold;
+    font-family: 'Butterfly Kids', Arial, Helvetica, sans-serif;
+}
+
+
+
+/* PINK CONTAINER*/
+
+.pinkContainer {
+    background-color: #e7718b;
+    padding-top: 25px;
+}
+
+.pinkContainer h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.pinkContainer h4 {
+    color: white;
+}
+
+.pinkContainer .mainBtn {
+    padding-top: 5%;
+}
+
+.pinkContainer button {
+border: none;
+border-radius: 5px;
+color: #ffffff;
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(104,104,104,1) 100%, rgba(45,44,44,1) 100%);
+font-size: large;
+}
+
+.pinkContainer .button1 {
+    font-size: 23px;
+}
+
+
+@media screen and (min-width: 420px) {
+    .pinkContainer .button1 {
+        font-size: 25px;
+    }
+}
+
+
+/* GRAY CONTAINER */
+
+.grayContainer {
+    background-color: #f4f4f6;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: solid 3px #e7718b;
+}
+
+.grayContainer h4 {
+    color: #ceced0;
+    padding-right: 20px;
+}
+
+.grayContainer .cloud {
+    list-style-image: url('../Images/grayCloudDownArrow (2).png');
+    position: relative;
+    top: 5px;
+  }
+
+.grayContainer .bubble {
+    list-style-image: url('../Images/chat-bubble_13450331\ \(1\).png');
+  }
+
+.grayContainer .star {
+    list-style-image: url('../Images/star_8367768\ \(1\).png');
+}
+
+.grayContainer ul {
+    position: relative;
+    left: 5px;
+}
+
+.grayContainer li {
+    font-size: xx-large;
+    color: #717173;
+}
+
+/* CHECKOUT PRODUCTS */
+
+.checkout h2 {
+    font-size: xx-large;
+}
+
+.checkout p {
+    font-size: x-large;
+}
+
+@media screen and (min-width: 1024px) {
+    .prod2 {
+        position: relative;
+        left: 18px;
+    }
+    
+    .prod4 {
+        position: relative;
+        left: 18px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .prod img {
+        width: 34%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .prod3 {
+        
+    }
+}
+
+.checkout .clientsSay {
+    position: relative;
+    margin-top: -47px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 767.2px) {
+    .checkout .clientsSay {
+        position: relative;
+        margin-top: 0px;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #26292e;
+}
+
+footer p {
+    color: white;
+    font-size: x-large;
+}
+
+/* OTHER @MEDIA */
+
+@media screen and (max-width: 768px) {
+    h1 {
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h4 {
+        letter-spacing: 2px;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        letter-spacing: 2px;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width: 5000px) {
+    h2 {
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 5000px) {
+    h4 {
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 5000px) {
+    p {
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .imgHead {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .imgFoot {
+        width: 25%;
+    }
+}
