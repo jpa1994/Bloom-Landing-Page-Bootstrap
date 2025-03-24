@@ -144,6 +144,18 @@ font-size: large;
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .prod img {
+        width: 47%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .prod img {
+        width: 47%;
+    }
+}
+
 /* FOOTER */
 
 footer {
